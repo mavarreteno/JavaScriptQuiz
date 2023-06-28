@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+#question {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#options {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#startDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+#countdown {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#initialsInput {
+  display: none;
+  margin-top: 20px;
+  background-color: aquamarine;
+}
+
+#initialsInput input[type="text"] {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+#initialsInput button {
+  padding: 10px 20px;
+  background-color: #f4f4f4;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#highscore {
+  margin-top: 20px;
+}
+
+#highscore li {
+  margin-bottom: 10px;
+  list-style-type: none;
+  font-size: 18px;
+  color: #333;
+}

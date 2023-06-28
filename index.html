@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Quiz</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <header>
+    <div id="initialsInput" style="display: none;">
+      <input type="text" id="initials" placeholder="Enter your initials" />
+      <button id="submitBtn">Submit</button>
+    </div>
+    <div id = highscore></div>
+    <div id="timer"></div>
+  </header>
+  <main>
+    <h1>JavaScript Quiz</h1>
+    <div id="question"></div>
+    <div id="options"></div>
+    <div id="startDiv"><button id="startButton">Press Here to Start Quiz</button></div>
+    <div id="timer">Time: <span id="countdown"></span></div>
+  </main>
+  <script src="./assets/js/logic.js"></script>
+</body>
+
+</html>
